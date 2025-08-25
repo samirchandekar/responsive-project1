@@ -1,0 +1,905 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    text-align: center;
+}
+
+.search-bar{
+    width: 300px;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.unordered-list1{
+    list-style: none;
+    display: flex;
+
+}
+
+.list1{
+    padding: 15px;
+    width: 130px;
+    /* border: 1px solid grey; */
+    color: white;
+}
+
+.list1:hover{
+    background-color: rgb(54, 99, 54);
+}
+
+.list1:hover .inbox1{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+}
+
+.inbox1{
+    width: 130px;
+    position: absolute;
+    top: 56px;
+    right: 130px;
+    background-color: transparent;
+    display: none;
+    /* border: 1px solid grey; */
+}
+
+
+.unordered-list2{
+    list-style: none;
+    /* border: 1px solid grey; */
+}
+
+.list2{
+    /* border: 1px solid grey; */
+    padding: 15px;
+}
+
+.ank{
+    color: black;
+}
+.ank:hover{
+    color: white;
+}
+
+.list2:hover{
+     background-color: rgb(54, 99, 54);
+}
+
+.cont1{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 60px;
+    /* border: 1px solid grey; */
+}
+
+
+h1{
+    font-size: 80px;
+    /* border: 1px solid grey; */
+}
+
+p{
+    font-size: 35px;
+    /* border: 1px solid grey; */
+}
+
+.my-button{
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    font-size: 22px;
+    width: 230px;
+    height: 50px;
+}
+
+.my-button:hover{
+    background-color: rgb(54, 99, 54);
+}
+
+.cont2{
+    /* padding: 60px; */
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.a1{
+    border: 1px solid green;
+}
+.a1:hover{
+    background-color: green;
+}
+
+.a2{
+    border: 1px solid yellow;
+}
+.a2:hover{
+    background-color: yellow;
+}
+
+
+.a3{
+    border: 1px solid red;
+}
+.a3:hover{
+    background-color: red;
+}
+
+
+.a4{
+    border: 1px solid blue;
+}
+.a4:hover{
+    background-color: blue;
+}
+
+
+.img2{
+    margin-top: 20px;
+}
+
+.cont3{
+    width: 100%;
+}
+
+.g-box{
+    width: 100%;
+    height: 500px;
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.g-box1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.Motivation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+.Motivation-1{
+    width: 90%;
+    padding: 20px;
+    height: 60vh;
+    border: 1px solid grey;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.mot-b{
+    text-align: center;
+    font-size: 72px;
+    text-decoration: underline;
+}
+
+.mot-p{
+    font-size: 72px;
+}
+
+.Motivation-1:hover{
+    background-color: rgb(128, 236, 128);
+}
+
+
+
+
+
+
+
+/* Contact Section */
+
+
+
+.contact-cont{
+    /* text-align: center; */
+    padding: 20px;
+    background-color: rgb(128, 236, 128);
+    
+}
+
+.contact-form{
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-details{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.details{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* About Section */
+
+.about{
+    width: 100%;
+    background-color: rgb(128, 236, 128);
+    padding: 20px;
+    text-align: justify;
+}
+
+.about-cont{
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.about-cont1{
+    background-color: green;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+}
+
+.about-cont2{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-cont2-1{
+    width: 45%;
+    height: 100%;
+    color: white;
+}
+
+.s1{
+    background-color: rgb(54, 124, 54);
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.s2{
+    background-color: rgb(54, 124, 54);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+/* daily mindfulness practices */
+
+.dmp{
+    width: 100%;
+    padding: 60px;
+    background-color: rgb(128, 236, 128);
+    /* background: linear-gradient(to bottom, green, white); */
+}
+
+.dmp0{
+    /* border: 1px solid grey; */
+    /* background-color: white; */
+}
+
+.dmp-h2{
+    font-size: 72px; 
+    text-align: center; 
+    margin-top: 30px;
+    
+}
+
+.dmp-p{
+    font-size: 50px; 
+    text-align: center;
+    color:grey;
+}
+
+.dmp-div{
+    width: 100%;
+    height: 70vh;
+    padding: 50px;
+    background-color: rgb(128, 236, 128);
+    
+}
+
+.dmp-div1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid grey; */
+    display: flex;
+
+}
+
+.dmp-div1-1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dmp-div1-1:hover{
+    background-color: rgb(128, 236, 128);
+}
+
+
+
+
+
+
+
+/* Mood Tracker */
+.mt{
+    width: 100%;
+    padding: 60PX;
+    background-color: rgb(128, 236, 128);
+}
+
+.mt-cont{
+    text-align: center;
+    /* background-color: rgb(128, 236, 128); */
+}
+
+.mt-dob{
+    width: 200px;
+    padding: 10px;
+}
+
+.mt-btn{
+    padding: 10px;
+    background-color: green;
+}
+
+.mt-btn:hover{
+    background-color: rgb(48, 95, 48);
+}
+
+.mt-cont2{
+    width: 100%;
+    height: 60vh;
+    /* background-color: rgb(128, 236, 128); */
+    /* border: 1px solid grey; */
+}
+
+.mt-cont2-1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid grey; */
+    display: flex;
+    padding: 10px;
+}
+
+.mt-cont2-1-1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.mt-cont2-1-1:hover{
+    background-color: rgb(128, 236, 128);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Personal Recommendation */
+
+.pr{
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 236, 128);
+}
+
+.pr-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pr-div1{
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    
+    
+}
+
+.pr-btn{
+    align-self: flex-end;
+    padding: 15px;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: green;
+    border: 1px solid grey;
+}
+
+.pr-btn:hover{
+    background-color: rgb(32, 75, 32);
+    color: white;
+}
+
+.pr-div2{
+    width: 100%;
+    height: 50vh;
+    padding: 30px;
+     background-color: rgb(128, 236, 128);
+}
+
+.pr-div2-1{
+    width: 100%;
+    height: 50%;
+     /* border: 1px solid grey; */
+     display: flex;
+}
+
+.pr-div2-1-1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.pr-div2-1-1:hover{
+    background-color: rgb(128, 236, 128);
+}
+
+.pr-b{
+    font-size: 48px;
+}
+
+
+
+
+/* resource library */
+
+.rl{
+    width: 100%;
+    height: 100vh;
+    padding: 60px;
+    background-color: rgb(128, 236, 128);
+}
+
+.rl-div{
+    width: 100%;
+    height: 50vh;
+    /* border: 1px solid grey; */
+}
+
+.rl-div1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid grey; */
+    display: flex;
+}
+
+.rl-div1-1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.rl-div1-1:hover{
+    background-color: rgb(128, 236, 128);
+}
+
+
+
+
+/* community support */
+
+.cs{
+    width: 100%;
+    padding: 60px;
+    background-color: rgb(128, 236, 128);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 236, 128);
+}
+
+.cs-div1{
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 32px;
+    background-color: white;
+    text-align: center;
+}
+
+.cs-div2{
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.cs-div2-1{
+    width: 40%;
+    height: 100%;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.cs-div2-1:hover{
+    background-color: rgb(128, 236, 128);
+}
+
+.cs-img{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* Wellness challeges */
+
+
+.wc{
+    width: 100%;
+    padding: 60px;
+    background-color: rgb(128, 236, 128);
+}
+
+.wc-div{
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid grey; */
+}
+
+.wc-div1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid grey; */
+    display: flex;
+}
+
+.wc-div1-1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.wc-div1-1:hover{
+    background-color: rgb(128, 236, 128);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ipad sizing section */
+
+/* personalized recommendation */
+
+@media (min-width:768px){
+    .pr-div2{
+    height: 70vh;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/* Laptop Sizing Section */
+
+
+
+/* Index Page */
+
+@media (min-width:1024px){
+    .abc{
+        animation-name: anim;
+        animation-duration: 5s;
+    }
+    @keyframes anim {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+            
+    }
+    
+/* Daily Practice */
+
+    .dmp-div1-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dmp-div1-1-1{
+        width: 50%;
+        height: 100%;
+        margin-top: 40px;
+        margin-right: 20px;
+        
+    }
+    
+    .dmp-div1-1-2{
+        width: 50%;
+        height: 100%;
+        
+    }
+
+    .dmp-p2{
+        font-size: 28px;
+    }
+
+    .dmp-img1{
+        width: 150px;
+        margin-top: 10px;
+    }
+
+
+
+/* mood tracker */
+
+.mt-cont2-1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mt-img{
+    width: 150px;
+}
+
+.mt1{
+    width: 200px;
+}
+
+.mt2{
+    width: 160px;
+}
+
+
+/* personalized recommendation */
+
+.pr-img{
+    width: 120px;
+}
+
+.pr-img1{
+    width: 100px;
+}
+
+.pr-b{
+    font-size: 28px;
+}
+
+.dmp-h2{
+        animation-name: anim;
+        animation-duration: 5s;
+    }
+    @keyframes anim {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+            
+    }
+
+
+    /* resource library */
+
+    .rl-div1-1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+/* community support */
+
+.cs-div2-1{
+    width: 40%;
+    height: 100%;
+    border: 1px solid grey;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.cs-img{
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+
+
+/* wellness challenges */
+
+.wc-div1-1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Motivation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+.mot-b{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.mot-p{
+    font-size: 32px;
+}
+
+.Motivation-1{
+    height: 80vh;
+    width: 24%;
+}
+
+
+}
