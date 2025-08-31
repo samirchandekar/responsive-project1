@@ -839,7 +839,7 @@ footer{
 
     .Motivation-1{
         width: 90%;
-        padding: 20px;
+        padding: 10px;
         height: 60vh;
         border: 1px solid grey;
         display: flex;
@@ -853,6 +853,7 @@ footer{
 
     .mot-img{
         width: 100%;
+        border-radius: 30px;
     }
 
     .mot-b{
@@ -896,12 +897,12 @@ footer{
     }
 
     .dmp-p2{
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .dmp-img1{
         width: 150px;
-        margin-top: 10px;
+        margin-top: -10px;
     }
 
 
@@ -955,7 +956,7 @@ footer{
             
     }
 
-
+    
     /* resource library */
 
     .rl-div1-1{
