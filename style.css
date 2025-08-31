@@ -4,19 +4,27 @@
     box-sizing: border-box;
 }
 
+.body-1{
+    width: 100%;
+}
+
 .nav-bar{
     width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: green;
     text-align: center;
+    position: fixed;
+    top: 0;
 }
 
 .search-bar{
-    width: 300px;
+    width: 40%;
     margin: 5px;
+    margin-left: 10px;
     border-radius: 20px;
     text-align: center;
+    
 }
 
 .unordered-list1{
@@ -51,7 +59,7 @@ a{
     position: absolute;
     top: 56px;
     right: 130px;
-    background-color: transparent;
+    background-color: white;
     display: none;
     /* border: 1px solid grey; */
 }
@@ -89,6 +97,7 @@ a{
 
 h1{
     font-size: 80px;
+    margin-top: 100px;
     /* border: 1px solid grey; */
 }
 
@@ -182,27 +191,44 @@ p{
     background-color: white;
 }
 
+.mot{
+    width: 100%;
+    /* height: 188vh; */
+    /* border: 1px solid grey; */
+}
+
 .Motivation{
     width: 100%;
+    margin-top: 50px;
+    /* height: 188vh; */
+    /* border: 1px solid grey; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
+    /* margin-bottom: 20px; */
     /* text-align: center; */
 
 }
 
 .Motivation-1{
-    width: 90%;
+    width: 100%;
     padding: 20px;
-    height: 60vh;
+    /* height: 60vh; */
     border: 1px solid grey;
-    /* display: flex;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    text-align: center; */
+    text-align: center;
     margin: 10px;
     border-radius: 30px;
+}
+
+.mot-img{
+    width: 100%;
+    /* border: 1px solid black;
+    padding: 1px; */
 }
 
 .mot-b{
@@ -212,7 +238,7 @@ p{
 }
 
 .mot-p{
-    font-size: 72px;
+    font-size: 80px;
 }
 
 .Motivation-1:hover{
@@ -221,6 +247,22 @@ p{
 
 
 
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 20px;
+    /* margin-top: 150px; */
+    color: white;
+    background-color: green;
+}
 
 
 
@@ -242,6 +284,7 @@ p{
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
+    padding: 70px;
 }
 
 .contact-details{
@@ -249,6 +292,7 @@ p{
     height: 30px;
     border-radius: 10px;
     border: 1px solid grey;
+    /* margin-left: 50px; */
 }
 
 .details{
@@ -270,6 +314,7 @@ p{
     background-color: rgb(128, 236, 128);
     padding: 20px;
     text-align: justify;
+    
 }
 
 .about-cont{
@@ -277,13 +322,19 @@ p{
     background-color: white;
     border-radius: 15px;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
 }
 
 .about-cont1{
-    background-color: green;
+    background-color: rgb(168, 232, 168);
     border-radius: 15px;
     padding: 15px;
-    color: white;
+    color: black;
+
 }
 
 .about-cont2{
@@ -291,23 +342,31 @@ p{
     height: 30vh;
     display: flex;
     justify-content: space-around;
+    font-size: 25px;
 }
 
 .about-cont2-1{
     width: 45%;
     height: 100%;
-    color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
 }
 
 .s1{
-    background-color: rgb(54, 124, 54);
+    background-color: rgb(168, 232, 168);
     padding: 15px;
     border-radius: 15px;
+    
     
 }
 
 .s2{
-    background-color: rgb(54, 124, 54);
+    background-color: rgb(168, 232, 168);
     padding: 15px;
     border-radius: 15px;
 }
@@ -323,14 +382,18 @@ p{
 
 .dmp{
     width: 100%;
+    /* height: 100vh; */
     padding: 60px;
+    
     background-color: rgb(128, 236, 128);
     /* background: linear-gradient(to bottom, green, white); */
 }
 
 .dmp0{
     /* border: 1px solid grey; */
+    /* margin-top: 55px; */
     /* background-color: white; */
+    /* margin-top: 70px; */
 }
 
 .dmp-h2{
@@ -374,6 +437,7 @@ p{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 .dmp-div1-1:hover{
     background-color: rgb(128, 236, 128);
@@ -704,8 +768,22 @@ p{
     .pr-div2{
     height: 70vh;
 }
-}
 
+.Motivation-1{
+        width: 90%;
+        padding: 20px;
+        height: 80vh;
+        border: 1px solid grey;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; */
+        margin: 10px;
+        border-radius: 30px;
+    }
+
+
+}
 
 
 
@@ -735,7 +813,64 @@ p{
         }
             
     }
+
+    h1{
+        font-size: 80px;
+        margin-top: 40px;
+        /* border: 1px solid grey; */
+    }
     
+    .mot{
+        width: 100%;
+        /* height: 79vh; */
+        /* border: 1px solid grey; */
+    }
+
+    .Motivation{
+        width: 100%;
+        /* margin-top: 200px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+
+    }
+
+    .Motivation-1{
+        width: 90%;
+        padding: 20px;
+        height: 60vh;
+        border: 1px solid grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        border-radius: 30px;
+    }
+
+    .mot-img{
+        width: 100%;
+    }
+
+    .mot-b{
+        text-align: center;
+        font-size: 35px;
+        text-decoration: underline;
+    }
+
+    .mot-p{
+        font-size: 25px;
+    }
+
+    .Motivation-1:hover{
+        background-color: rgb(128, 236, 128);
+    }
+
+
+
 /* Daily Practice */
 
     .dmp-div1-1{
@@ -874,31 +1009,6 @@ p{
     text-align: center;
     border-radius: 10px;
     margin: 10px;
-}
-
-.Motivation{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    align-items: center;
-    /* text-align: center; */
-
-}
-
-.mot-b{
-    text-align: center;
-    font-size: 40px;
-    text-decoration: underline;
-}
-
-.mot-p{
-    font-size: 32px;
-}
-
-.Motivation-1{
-    height: 80vh;
-    width: 24%;
 }
 
 
